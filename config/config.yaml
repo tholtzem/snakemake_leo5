@@ -1,0 +1,20 @@
+###-------------------------------------------------###
+# Configuration file
+## for adapters, Kraken2 database and references
+# can be used in rule with f.ex. ref=config["ref_HiC"]
+###-------------------------------------------------###
+
+## ref for testing
+ref: "ref/genome.fa"
+
+#put new paths here
+## For trimming using bbduk 
+adapters: "/scratch/c7701178/envs/daphnia_test/opt/bbmap-38.93-0/resources/adapters.fa"
+phiX: "/scratch/c7701178/envs/daphnia_test/opt/bbmap-38.93-0/resources/phix174_ill.ref.fa.gz"
+
+## Kraken2 database 
+KRAKEN2_DB: "/scratch/c7701125/mach2/EXCHANGE/K2DB_DAPH/"
+
+## HiC reference for D. galeata
+#ref_HiC: "ref/Dgaleata_M5_PBasm.FINAL.fasta"
+
