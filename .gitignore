@@ -1,0 +1,12 @@
+*fq*
+*fastq*
+*fasta*
+*fa*
+*bam
+*log
+*out
+*err
+ref/*/*
+trm/hist/
+trm/qc/
+trm/stats/
