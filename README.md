@@ -1,4 +1,4 @@
-# Snakemake_TEST_SLURM
+# Test workflow for the execution of snakemake on leo5 (SLURM)
 
 Testing the snakemake workflow for the execution on the leo5 HPC cluster with the SLURM batch job sumission system. 
 
